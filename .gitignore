@@ -1,0 +1,22 @@
+.DS_Store
+
+# ignore ipynb checkpoints
+**/*.ipynb_checkpoints
+
+# ignore generated files (.pdf, .png)
+**/*.pdf
+**/*.png
+
+# ignore everything in the data directory except .md
+data/*
+!data/data.md
+
+# ignore everything in nnunet directory except .md
+nnunet/*
+!nnunet/nnunet.md
+
+# ignore everything in the nnunet_data directory except .md
+nnunet_data/*
+!nnunet_data/nnunet_data.md
+
+
