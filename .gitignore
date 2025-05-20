@@ -14,6 +14,7 @@ data/*
 # ignore everything in nnunet directory except .md
 nnunet/*
 !nnunet/nnunet.md
+!nnunet/normalisation_functions.py
 
 # ignore everything in the nnunet_data directory except .md
 nnunet_data/*
