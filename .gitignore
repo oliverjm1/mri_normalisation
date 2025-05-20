@@ -3,6 +3,9 @@
 # ignore ipynb checkpoints
 **/*.ipynb_checkpoints
 
+# ignore cloud files
+**/*.icloud
+
 # ignore generated files (.pdf, .png)
 **/*.pdf
 **/*.png
