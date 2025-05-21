@@ -10,17 +10,15 @@
 **/*.pdf
 **/*.png
 
-# ignore everything in the data directory except .md
+# ignore everything in the data directory
 data/*
-!data/data.md
 
-# ignore everything in nnunet directory except .md
-nnunet/*
-!nnunet/nnunet.md
-!nnunet/normalisation_functions.py
+# ignore everything in nnunet directory except .py file with normalistion functions
+nnUNet/*
+!nnUNet/normalisation_functions.py
 
-# ignore everything in the nnunet_data directory except .md
-nnunet_data/*
-!nnunet_data/nnunet_data.md
+# ignore everything in the nnunet_data directory
+nnUNet_data/*
 
-
+# don't ignore .md files
+!**/*.md
