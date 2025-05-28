@@ -9,6 +9,7 @@
 # ignore generated files (.pdf, .png)
 **/*.pdf
 **/*.png
+**/*.csv
 
 # ignore everything in the data directory
 data/*
