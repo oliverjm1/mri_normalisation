@@ -10,6 +10,7 @@
 **/*.pdf
 **/*.png
 **/*.csv
+**/*.txt
 
 # ignore everything in the data directory
 data/*
@@ -23,3 +24,8 @@ nnUNet_data/*
 
 # don't ignore .md files
 !**/*.md
+
+# ignore R generated files
+**/*.R*
+
+
