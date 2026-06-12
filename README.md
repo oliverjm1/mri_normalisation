@@ -5,4 +5,4 @@
 3D U-Nets were trained on the IWOAI 2019 dataset with different normalisation methods using the nnU-Net framework.
 These models were then tested on both internal and external (SKM-TEA) data to investigate whether some methods offer increased generalisability to domain shift.
 
-(Needs a tidy-up and some other graph-generating bits added which will occur before presentation at MIUA 2026)
+(Needs a tidy-up, adding the normalisation functions and some other graph-generating bits added which will occur before presentation at MIUA 2026)
