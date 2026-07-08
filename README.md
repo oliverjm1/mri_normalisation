@@ -1,8 +1,36 @@
-# Does Normalisation Affect Generalisability?
+# A Systematic Benchmark of Intensity Normalisation Methods for 3D Knee MRI Segmentation and Cross-Domain Generalisability
 
-## A comparison of methods for MRI segmentation
+This repository contains the code and experiments accompanying the paper:
 
-3D U-Nets were trained on the IWOAI 2019 dataset with different normalisation methods using the nnU-Net framework.
-These models were then tested on both internal and external (SKM-TEA) data to investigate whether some methods offer increased generalisability to domain shift.
+> **A Systematic Benchmark of Intensity Normalisation Methods for 3D Knee MRI Segmentation and Cross-Domain Generalisability**
 
-(Needs a tidy-up, adding the normalisation functions and some other graph-generating bits added which will occur before presentation at MIUA 2026)
+Accepted for presentation at the **Medical Image Understanding and Analysis (MIUA) 2026** conference.
+
+## Overview
+
+Intensity normalisation is a common preprocessing step in MRI segmentation pipelines, yet its impact on model performance and robustness across imaging domains remains unclear.
+
+This project benchmarks a range of MRI intensity normalisation methods using the nnU-Net framework. Models were trained on the IWOAI 2019 knee MRI dataset and evaluated on both the internal test set and the external SKM-TEA dataset to investigate how different normalisation strategies affect segmentation performance and cross-domain generalisability.
+
+## Data
+
+Training and internal evaluation were performed using the **IWOAI 2019** knee MRI segmentation dataset.
+
+To assess cross-domain generalisability, all trained models were additionally evaluated on the **SKM-TEA** dataset without retraining, allowing the effects of domain shift to be investigated across differing acquisition protocols and imaging characteristics.
+
+The **IWOAI 2019** dataset is available upon request from the challenge repository:
+https://github.com/denizlab/2019_IWOAI_Challenge
+
+The **SKM-TEA** dataset is openly available via the Stanford Digital Repository:
+https://doi.org/10.71718/2ghb-nv62
+
+Additional information, documentation, and tutorials for SKM-TEA are available at:
+https://github.com/StanfordMIMI/skm-tea
+
+## Repository Contents
+
+- Training pipelines
+- MRI intensity normalisation methods
+- Evaluation scripts
+- Statistical analysis
+- Figures and results used in the manuscript
