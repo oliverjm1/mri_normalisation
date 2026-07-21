@@ -27,6 +27,18 @@ https://doi.org/10.71718/2ghb-nv62
 Additional information, documentation, and tutorials for SKM-TEA are available at:
 https://github.com/StanfordMIMI/skm-tea
 
+## Methods
+
+Seven intensity normalisation methods were compared, which were integrated into the nnU-Net framework:
+
+1. **Z-score** - standardising images by their mean and standard deviation.
+1. **Min-max** - scaling intensity values to [0, 1] range.
+1. **Robust min-max** - intensity values are clipped to 1st and 99th percentile before [0, 1] scaling.
+1. **Histogram Equalisation (HE)** - global histogram equalisation across each image.
+1. **Contrast-limited adaptive histogram equalisation (CLAHE)** - image histograms equalised locally using kernels.
+1. **Nyúl histogram standardisation** - a template is created from intensity landmarks from the training data. Data is then transformed to match this template.
+1. **GMM normalisation** - a four-component gaussian mixture model is fitted to the image intensity distribution, with the second highest peak used to standardise the image.
+
 ## Repository Contents
 
 - Training pipelines
