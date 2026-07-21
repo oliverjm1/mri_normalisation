@@ -45,6 +45,10 @@ nnU-Net v2 was installed locally to allow for editing and integration of other n
 
 For code used for normalisation schemes, and information about how these were added to the nnU-Net framework, see `nnUNet/normalisation_functions.py` and `nnUNet/nnUNet.md`.
 
+Creation of dataset folders should follow the instructions on the nnUNetv2 github page, where an `nnUNet_data` folder was created, with `nnUNet_raw`, `nnUNet_preprocessed` and `nnUNet_results` subfolders.
+
+Nyúl standardisation landmarks were created and saved in the `nnUNet_preprocessed/{DATASET_NAME}` folder.
+
 ## Repository Contents
 
 - Training pipelines
