@@ -39,6 +39,12 @@ Seven intensity normalisation methods were compared, which were integrated into 
 1. **Nyúl histogram standardisation** - a template is created from intensity landmarks from the training data. Data is then transformed to match this template.
 1. **GMM normalisation** - a four-component gaussian mixture model is fitted to the image intensity distribution, with the second highest peak used to standardise the image.
 
+## Set-up
+
+nnU-Net v2 was installed locally to allow for editing and integration of other normalisation methods. Instructs for how to clone locally can be found [HERE](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/getting-started/installation-and-setup.md).
+
+For code used for normalisation schemes, and information about how these were added to the nnU-Net framework, see `nnUNet/normalisation_functions.py` and `nnUNet/nnUNet.md`.
+
 ## Repository Contents
 
 - Training pipelines
