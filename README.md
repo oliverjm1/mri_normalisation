@@ -6,6 +6,10 @@ This repository contains the code and experiments accompanying the paper:
 
 Accepted for presentation at the **Medical Image Understanding and Analysis (MIUA) 2026** conference.
 
+**Preprint (submitted version):** <https://arxiv.org/abs/2607.20028>
+
+*A link to the peer-reviewed Springer proceedings paper will be added once it becomes available.*
+
 ## Overview
 
 Intensity normalisation is a common preprocessing step in MRI segmentation pipelines, yet its impact on model performance and robustness across imaging domains remains unclear.
